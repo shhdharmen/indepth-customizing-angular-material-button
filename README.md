@@ -1,27 +1,12 @@
-# IndepthCustomizingAngularMaterialButton
+# [InDepth Guide for Customizing Angular Material Button](#TBA)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+In this tutorial we will learn all the ways to customize angular material buttons and decide which is better. We will also look at how to modify styles so that they don’t break with updates.
 
-## Development server
+By end of this article, you will have idea about below topics:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. How to create attribute directive
+2. How to create dynamic component
+3. When to create component and when to create directive
+4. How to effectively modify any 3rd party library’s components, for both, to add a feature and to change the look and feel
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Read full article at: [InDepth Guide for Customizing Angular Material Button](#TBA)
