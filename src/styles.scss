@@ -1,5 +1,7 @@
 @forward "./app/button";
 
+@use "@angular/material" as mat;
+
 html,
 body {
   height: 100%;
@@ -7,4 +9,29 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+$custom-primary: mat.define-palette(mat.$pink-palette, 700, 500, 900);
+$custom-accent: mat.define-palette(mat.$blue-grey-palette, A200, A100, A400);
+
+$custom-theme: mat.define-dark-theme(
+  (
+    color: (
+      primary: $custom-primary,
+      accent: $custom-accent,
+    ),
+  )
+);
+
+.custom-theme {
+  @include mat.button-theme($custom-theme);
+  @include mat.progress-spinner-theme($custom-theme);
+}
+
+.button-rounded {
+  &.mat-button,
+  &.mat-raised-button,
+  &.mat-flat-button {
+    border-radius: 25% / 50%;
+  }
 }
